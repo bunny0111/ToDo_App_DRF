@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local development settings
+local_settings.py
+
+# Database
+db.sqlite3
+*.sqlite3
+
+# Static files
+staticfiles/
+
+# Media files
+media/
+
+# Virtual environment
+venv/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE files
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# API-specific: Database migrations
+__pycache__/migrations/
+migrations/
+
+# API-specific: Django Rest Framework
+*.pyc
+*.pyo
+*.pyd
+__pycache__/asgi.py
+__pycache__/wsgi.py
+__pycache__/settings.py
+
+# API-specific: Django Debug Toolbar
+*.sqlite3-journal
+
+# API-specific: Django Channels
+*.asgi.py
+*.wsgi.py
+
+# API-specific: Django Secret Key
+secret_key.txt
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
